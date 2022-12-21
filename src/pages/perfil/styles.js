@@ -41,3 +41,23 @@ color: #707070;
 padding: 20px;
 
 `
+export const Info = styled.h1`
+color: #505050;
+font-family: 'Poppins';
+font-weight: 700;
+font-size: 18px;
+
+`
+export const Paragraph = styled.p` 
+
+font-family: "Poppins";
+font-size: 13px;
+font-weight: 400;
+color: 909090;
+`
+export const Container = styled.div`
+width: 1790px;
+height: 83px;
+left: 98px;
+top: 269px;
+`

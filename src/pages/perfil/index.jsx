@@ -1,9 +1,11 @@
 
 import {MdKeyboardBackspace} from 'react-icons/md'
-import { Page,Tabs,TextInput } from "./styles";
+import { Page,Tabs,TextInput,Container,Info,Paragraph } from "./styles";
 
 import React from 'react'
 import { Input } from "../../Input";
+import { Button } from '../../Button';
+
 
 const Profile = () => {
   return (<>
@@ -20,10 +22,16 @@ const Profile = () => {
        <TextInput>Senha</TextInput>
        <TextInput>Dados profissionais</TextInput>
     
+       <Container>
+      <Info>Informações pessoais</Info>
+      <Paragraph>Atualize sua foto e dados pessoais aqui.</Paragraph>
+      
+      <Button tittle="Salvar" variant="secondary"></Button>
+    </Container>
+    
     </Tabs>
-    
-
-    
+   
+   
     
     </>
   )

@@ -7,8 +7,9 @@ color: #909090;
 `
 export const InputContainer = styled.div` 
 width: 100%;
-max-width: 275px;
-height: 30px;
+max-width: 20px;
+
+
 
 align-items: center;
 display: flex;
@@ -19,6 +20,6 @@ export const InputText = styled.input`
 background-color: transparent;
 color: #FFFFFF;
 border: 0;
-height: 30px;
+
 
 `
